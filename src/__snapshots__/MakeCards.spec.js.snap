@@ -1,0 +1,446 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MakeCards should make all the cards 1`] = `
+Array [
+  Object {
+    "color": "RED",
+    "number": 0,
+  },
+  Object {
+    "color": "RED",
+    "number": 0,
+  },
+  Object {
+    "color": "BLUE",
+    "number": 0,
+  },
+  Object {
+    "color": "BLUE",
+    "number": 0,
+  },
+  Object {
+    "color": "GREEN",
+    "number": 0,
+  },
+  Object {
+    "color": "GREEN",
+    "number": 0,
+  },
+  Object {
+    "color": "YELLOW",
+    "number": 0,
+  },
+  Object {
+    "color": "YELLOW",
+    "number": 0,
+  },
+  Object {
+    "color": "RED",
+    "number": 1,
+  },
+  Object {
+    "color": "RED",
+    "number": 1,
+  },
+  Object {
+    "color": "BLUE",
+    "number": 1,
+  },
+  Object {
+    "color": "BLUE",
+    "number": 1,
+  },
+  Object {
+    "color": "GREEN",
+    "number": 1,
+  },
+  Object {
+    "color": "GREEN",
+    "number": 1,
+  },
+  Object {
+    "color": "YELLOW",
+    "number": 1,
+  },
+  Object {
+    "color": "YELLOW",
+    "number": 1,
+  },
+  Object {
+    "color": "RED",
+    "number": 2,
+  },
+  Object {
+    "color": "RED",
+    "number": 2,
+  },
+  Object {
+    "color": "BLUE",
+    "number": 2,
+  },
+  Object {
+    "color": "BLUE",
+    "number": 2,
+  },
+  Object {
+    "color": "GREEN",
+    "number": 2,
+  },
+  Object {
+    "color": "GREEN",
+    "number": 2,
+  },
+  Object {
+    "color": "YELLOW",
+    "number": 2,
+  },
+  Object {
+    "color": "YELLOW",
+    "number": 2,
+  },
+  Object {
+    "color": "RED",
+    "number": 3,
+  },
+  Object {
+    "color": "RED",
+    "number": 3,
+  },
+  Object {
+    "color": "BLUE",
+    "number": 3,
+  },
+  Object {
+    "color": "BLUE",
+    "number": 3,
+  },
+  Object {
+    "color": "GREEN",
+    "number": 3,
+  },
+  Object {
+    "color": "GREEN",
+    "number": 3,
+  },
+  Object {
+    "color": "YELLOW",
+    "number": 3,
+  },
+  Object {
+    "color": "YELLOW",
+    "number": 3,
+  },
+  Object {
+    "color": "RED",
+    "number": 4,
+  },
+  Object {
+    "color": "RED",
+    "number": 4,
+  },
+  Object {
+    "color": "BLUE",
+    "number": 4,
+  },
+  Object {
+    "color": "BLUE",
+    "number": 4,
+  },
+  Object {
+    "color": "GREEN",
+    "number": 4,
+  },
+  Object {
+    "color": "GREEN",
+    "number": 4,
+  },
+  Object {
+    "color": "YELLOW",
+    "number": 4,
+  },
+  Object {
+    "color": "YELLOW",
+    "number": 4,
+  },
+  Object {
+    "color": "RED",
+    "number": 5,
+  },
+  Object {
+    "color": "RED",
+    "number": 5,
+  },
+  Object {
+    "color": "BLUE",
+    "number": 5,
+  },
+  Object {
+    "color": "BLUE",
+    "number": 5,
+  },
+  Object {
+    "color": "GREEN",
+    "number": 5,
+  },
+  Object {
+    "color": "GREEN",
+    "number": 5,
+  },
+  Object {
+    "color": "YELLOW",
+    "number": 5,
+  },
+  Object {
+    "color": "YELLOW",
+    "number": 5,
+  },
+  Object {
+    "color": "RED",
+    "number": 6,
+  },
+  Object {
+    "color": "RED",
+    "number": 6,
+  },
+  Object {
+    "color": "BLUE",
+    "number": 6,
+  },
+  Object {
+    "color": "BLUE",
+    "number": 6,
+  },
+  Object {
+    "color": "GREEN",
+    "number": 6,
+  },
+  Object {
+    "color": "GREEN",
+    "number": 6,
+  },
+  Object {
+    "color": "YELLOW",
+    "number": 6,
+  },
+  Object {
+    "color": "YELLOW",
+    "number": 6,
+  },
+  Object {
+    "color": "RED",
+    "number": 7,
+  },
+  Object {
+    "color": "RED",
+    "number": 7,
+  },
+  Object {
+    "color": "BLUE",
+    "number": 7,
+  },
+  Object {
+    "color": "BLUE",
+    "number": 7,
+  },
+  Object {
+    "color": "GREEN",
+    "number": 7,
+  },
+  Object {
+    "color": "GREEN",
+    "number": 7,
+  },
+  Object {
+    "color": "YELLOW",
+    "number": 7,
+  },
+  Object {
+    "color": "YELLOW",
+    "number": 7,
+  },
+  Object {
+    "color": "RED",
+    "number": 8,
+  },
+  Object {
+    "color": "RED",
+    "number": 8,
+  },
+  Object {
+    "color": "BLUE",
+    "number": 8,
+  },
+  Object {
+    "color": "BLUE",
+    "number": 8,
+  },
+  Object {
+    "color": "GREEN",
+    "number": 8,
+  },
+  Object {
+    "color": "GREEN",
+    "number": 8,
+  },
+  Object {
+    "color": "YELLOW",
+    "number": 8,
+  },
+  Object {
+    "color": "YELLOW",
+    "number": 8,
+  },
+  Object {
+    "color": "RED",
+    "number": 9,
+  },
+  Object {
+    "color": "RED",
+    "number": 9,
+  },
+  Object {
+    "color": "BLUE",
+    "number": 9,
+  },
+  Object {
+    "color": "BLUE",
+    "number": 9,
+  },
+  Object {
+    "color": "GREEN",
+    "number": 9,
+  },
+  Object {
+    "color": "GREEN",
+    "number": 9,
+  },
+  Object {
+    "color": "YELLOW",
+    "number": 9,
+  },
+  Object {
+    "color": "YELLOW",
+    "number": 9,
+  },
+  Object {
+    "color": "RED",
+    "effect": [Function],
+  },
+  Object {
+    "color": "RED",
+    "effect": [Function],
+  },
+  Object {
+    "color": "RED",
+    "effect": [Function],
+  },
+  Object {
+    "color": "RED",
+    "effect": [Function],
+  },
+  Object {
+    "color": "RED",
+    "effect": [Function],
+  },
+  Object {
+    "color": "RED",
+    "effect": [Function],
+  },
+  Object {
+    "color": "BLUE",
+    "effect": [Function],
+  },
+  Object {
+    "color": "BLUE",
+    "effect": [Function],
+  },
+  Object {
+    "color": "BLUE",
+    "effect": [Function],
+  },
+  Object {
+    "color": "BLUE",
+    "effect": [Function],
+  },
+  Object {
+    "color": "BLUE",
+    "effect": [Function],
+  },
+  Object {
+    "color": "BLUE",
+    "effect": [Function],
+  },
+  Object {
+    "color": "GREEN",
+    "effect": [Function],
+  },
+  Object {
+    "color": "GREEN",
+    "effect": [Function],
+  },
+  Object {
+    "color": "GREEN",
+    "effect": [Function],
+  },
+  Object {
+    "color": "GREEN",
+    "effect": [Function],
+  },
+  Object {
+    "color": "GREEN",
+    "effect": [Function],
+  },
+  Object {
+    "color": "GREEN",
+    "effect": [Function],
+  },
+  Object {
+    "color": "YELLOW",
+    "effect": [Function],
+  },
+  Object {
+    "color": "YELLOW",
+    "effect": [Function],
+  },
+  Object {
+    "color": "YELLOW",
+    "effect": [Function],
+  },
+  Object {
+    "color": "YELLOW",
+    "effect": [Function],
+  },
+  Object {
+    "color": "YELLOW",
+    "effect": [Function],
+  },
+  Object {
+    "color": "YELLOW",
+    "effect": [Function],
+  },
+  Object {
+    "effect": [Function],
+  },
+  Object {
+    "effect": [Function],
+  },
+  Object {
+    "effect": [Function],
+  },
+  Object {
+    "effect": [Function],
+  },
+  Object {
+    "effect": [Function],
+  },
+  Object {
+    "effect": [Function],
+  },
+  Object {
+    "effect": [Function],
+  },
+  Object {
+    "effect": [Function],
+  },
+]
+`;

@@ -8,40 +8,7 @@ http
     res.end(); //end the response
   })
   .listen(8080); //the server object listens on port 8080
-
-const BLOCKED = {
-  effect: () => {
-    nextUser().shouldBeBlocked();
-    user().endTurn();
-  }
-};
-
-const REVERT = {
-  effect: () => {
-    user().revert().endTurn();
-  }
-};
-
-const ADD_2_CARD = {
-  effect: () => {
-    nextUser().shouldBuy(2);
-    user().endTurn();
-  }
-};
-
-const CHANGE_COLOR = {
-  effect: () => {
-    user().chooseColor().endTurn();
-  }
-};
-
-const ADD_4_CARD = {
-  effect: ({ color }) => {
-    user().chooseColor(color);
-    nextUser().shouldBuy(4);
-    user().endTurn();
-  }
-};
+// bla
 
 const cardsPile = [];
 
@@ -57,11 +24,6 @@ function turn(cardFromDeck) {
   if (card?.effect()) {
   }
 }
-
-const MAX_NUMBER_NORMAL_CARDS = 9;
-const MAX_CHANGE_COLOR_CARDS = 4;
-const MAX_CHANGE_4_CARDS = 4;
-const COLORS = { RED: "RED", BLUE: "BLUE", GREEN: "GREEN", YELLOW: "YELLOW" };
 
 function MakeCards() {
   const cards = [];
@@ -105,9 +67,6 @@ const system = {
   turn: null, // turn number
   discardPile: [],
   deck: null, // deck object
-  shuffleDeck: () => {
-    this.deck = _.shuffle(this.deck);
-  },
   giveCards: () => {
     users.forEach((user) => {
       user.handsCards();

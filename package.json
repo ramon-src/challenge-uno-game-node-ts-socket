@@ -1,7 +1,7 @@
 {
-  "name": "node-http-server",
+  "name": "challenge-uno-game-node-ts-socket",
   "version": "1.0.0",
-  "description": "Node.js example server starter project",
+  "description": "",
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon --watch 'src/' --exec 'ts-node src/index.js' -e ts",

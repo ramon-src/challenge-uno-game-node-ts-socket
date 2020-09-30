@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest --verbose",
+    "test": "jest",
     "serve": "nodemon --watch 'src/' --exec 'ts-node src/index.js' -e ts",
     "build": "rimraf ./build && npm run build:types && npm run build:js",
     "build:types": "tsc --emitDeclarationOnly",

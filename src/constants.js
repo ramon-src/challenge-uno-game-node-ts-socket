@@ -11,36 +11,48 @@ export const COLORS = {
   YELLOW: "YELLOW"
 };
 
+export const EFFECTS = {
+  REVERT: "REVERT",
+  ADD_2_CARD: "ADD_2_CARD",
+  ADD_4_CARD: "ADD_4_CARD",
+  BLOCKED: "BLOCKED",
+  CHANGE_COLOR: "CHANGE_COLOR"
+};
+
+export const TURN = {
+  START: "START",
+  CONTINUE: "CONTINUE",
+  END: "END",
+  DIRECTION: {
+    LEFT: "LEFT",
+    RIGHT: "RIGHT"
+  }
+};
+
 export const BLOCKED = {
-  effect: () => {
-    nextUser().shouldBeBlocked();
-    user().endTurn();
+  effect: (state) => {
+    return { ...state, turn: TURN.END };
   }
 };
 
 export const REVERT = {
-  effect: () => {
-    user().revert().endTurn();
-  }
-};
+  effect: (state) => {
+    let newDirection;
+    let newCurrentTurn;
 
-export const ADD_2_CARD = {
-  effect: () => {
-    nextUser().shouldBuy(2);
-    user().endTurn();
-  }
-};
+    if (state.turnDirection === TURN.DIRECTION.RIGHT) {
+      newDirection = TURN.DIRECTION.LEFT;
+      newCurrentTurn = state.currentTurn - 1;
+    } else {
+      newDirection = TURN.DIRECTION.RIGHT;
+      newCurrentTurn = state.currentTurn + 1;
+    }
 
-export const CHANGE_COLOR = {
-  effect: () => {
-    user().chooseColor().endTurn();
-  }
-};
-
-export const ADD_4_CARD = {
-  effect: ({ color }) => {
-    user().chooseColor(color);
-    nextUser().shouldBuy(4);
-    user().endTurn();
+    return {
+      ...state,
+      turn: TURN.CONTINUE,
+      turnDirection: newDirection,
+      currentTurn: newCurrentTurn
+    };
   }
 };
